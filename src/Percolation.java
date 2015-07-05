@@ -9,7 +9,7 @@
 public class Percolation {
     private int N;              // N-by-N grid
     private QuickU uf;          // union-find data structure
-    private boolean[][] cells;  // is cell i-j occupied?
+    private boolean[][] cells;  // is cell i-j occupied?, array of bool
 
     public Percolation(int N) {
         this.N = N;
