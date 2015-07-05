@@ -72,7 +72,7 @@ public class Percolation {
 
 
     public static void main(String[] args) {
-        int N     = Integer.parseInt("50");
+        int N = 50;
         StdDraw.setXscale(0, N);
         StdDraw.setYscale(0, N);
         StdDraw.setPenColor(StdDraw.BLUE);
