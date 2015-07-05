@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e28b68e1-3218-4905-9542-5d9af1c03975" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QuickU.java" afterPath="$PROJECT_DIR$/src/QuickU.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PercolationGraph.iws" />
@@ -28,9 +27,10 @@
       <file leaf-file-name="Percolation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Percolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5946502">
-              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="69" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.3148148">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
+                <element signature="e#2105#2106#0" expanded="true" />
                 <element signature="e#2135#2136#0" expanded="true" />
               </folding>
             </state>
@@ -57,6 +57,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dimaas" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="FORCE_PUSH_ALLOWED" value="true" />
@@ -168,7 +173,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Percolation">
@@ -367,7 +372,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436135991905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" Tiny fixes">
+      <created>1436136260151</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1436136260151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -413,7 +424,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test comment" />
     <MESSAGE value=" Straightforward setting side of the square" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Straightforward setting side of the square" />
+    <MESSAGE value=" Tiny fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Tiny fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -429,6 +441,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#2105#2106#0" expanded="true" />
             <element signature="e#2135#2136#0" expanded="true" />
           </folding>
         </state>
@@ -444,9 +457,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Percolation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5946502">
-          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="69" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.3148148">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
           <folding>
+            <element signature="e#2105#2106#0" expanded="true" />
             <element signature="e#2135#2136#0" expanded="true" />
           </folding>
         </state>
