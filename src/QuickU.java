@@ -1,4 +1,5 @@
 public class QuickU {
+
     private int[] id;
     private int components;
 
