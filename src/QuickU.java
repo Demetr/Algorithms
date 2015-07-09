@@ -1,21 +1,21 @@
 public class QuickU {
 
-    private int[] id;
+    private int[] parent;
     private int components;
 
     // instantiate N isolated components 0 through N-1
     public QuickU(int N) {
-        id = new int[N];
+        parent = new int[N];
         components = N;
         for (int i = 0; i < N; i++) {
-            id[i] = i;
+            parent[i] = i;
         }
     }
 
-    // return id of component corresponding to element x
+    // return parent of component corresponding to element x
     public int find(int x) {
-        while (x != id[x])
-            x = id[x];
+        while (x != parent[x])
+            x = parent[x];
         return x;
     }
 
@@ -34,7 +34,7 @@ public class QuickU {
         int i = find(p);
         int j = find(q);
         if (i == j) return;
-        id[i] = j;
+        parent[i] = j;
         components--;
     }
 }
