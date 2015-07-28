@@ -1,3 +1,4 @@
+import static java.lang.System.out;
 /**
  * Created by Dimaas on 7/11/2015.
  */
@@ -5,7 +6,7 @@ public class Percolation {
     private int N;              // N-by-N grid
     private UF uf;
     //private static boolean[][] sites;  // is cell i-j occupied?, array of bool
-    private BoolIndexer sites;  // is cell i-j occupied?, array of bool
+    private BoolIndexer sites;  // is cell i-j occupied?, array of bool [1..N]
 
     // create N-by-N grid, with all sites blocked
     public Percolation(int N) {
@@ -96,6 +97,17 @@ public class Percolation {
 
     public static void main(String[] args) {
         int N = 5;
+        In in = null;
+        int[] array = new int[10000];
+        try {
+            in = new In("heart25.txt");
+            int i = 0;
+            while (!in.isEmpty()) {
+                array = in.readAllInts();
+                i++;
+            }
+        }
+        catch (Exception e) { System.out.println(e); }
 
         Percolation percolation = new Percolation(N);
         int i, j;
